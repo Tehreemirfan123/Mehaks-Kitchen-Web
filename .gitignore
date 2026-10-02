@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment — real values never go in the repo
+.env
+.env.*
+!.env.example
+
+# FastAPI Cloud — links this folder to your account's app
+.fastapicloud/
+
+# Node / frontend
+node_modules/
+dist/
+*.local
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+DEPLOYMENT.md
