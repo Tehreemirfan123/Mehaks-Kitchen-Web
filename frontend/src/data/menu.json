@@ -1,0 +1,50 @@
+{
+  "dishes": [
+    {
+      "name": "Ghoota Daal (Chicken)",
+      "description": "Ghoota daal with chicken, served with chawal",
+      "price": 270,
+      "day": "monday"
+    },
+    {
+      "name": "Sabzi / Daal",
+      "description": "Sabzi, daal mash or daal channa fry",
+      "price": 160,
+      "day": "tuesday"
+    },
+    {
+      "name": "Chicken White Karahi",
+      "description": "Creamy chicken white karahi",
+      "price": 230,
+      "day": "wednesday"
+    },
+    {
+      "name": "Karri Pakora",
+      "description": "Karri pakora with 2 roti / masar chawal",
+      "price": 220,
+      "day": "thursday"
+    },
+    {
+      "name": "Channa Pilao",
+      "description": "Channa pilao with raita and salad",
+      "price": 300,
+      "day": "friday"
+    },
+    {
+      "name": "Chicken Nihari",
+      "description": "Special slow-cooked chicken nihari",
+      "price": 260,
+      "day": "saturday"
+    },
+    {
+      "name": "Chicken Biryani",
+      "description": "Traditional spicy chicken biryani",
+      "price": 320,
+      "day": "sunday"
+    },
+    {
+      "name": "Mutton Kunna",
+      "description": "Available on advance order. Ask for details."
+    }
+  ]
+}
