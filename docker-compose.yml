@@ -1,0 +1,6 @@
+# The production build served by nginx: http://localhost:5173
+services:
+  web:
+    build: ./frontend
+    ports:
+      - "5173:8080"
