@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 
-import { BUSINESS } from "../config";
+import { BUSINESS, DEVELOPER } from "../config";
 import { useCart } from "../context/CartContext";
 import { useTheme } from "../context/ThemeContext";
 import { whatsappUrl } from "../lib/whatsapp";
@@ -143,7 +143,15 @@ export default function Layout() {
                     </div>
                 </div>
                 <div className="border-t border-white/10 py-3 text-center text-xs text-gold-200">
-                    © {new Date().getFullYear()} {BUSINESS.name}
+                    © {new Date().getFullYear()} {BUSINESS.name} · Website by{" "}
+                    <a
+                        href={DEVELOPER.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline underline-offset-2 hover:text-white"
+                    >
+                        {DEVELOPER.name}
+                    </a>
                 </div>
             </footer>
 
