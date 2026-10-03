@@ -14,6 +14,13 @@ export const BUSINESS = {
     timeZone: "Asia/Karachi",
 };
 
+// Developer credit shown in the footer. Replace `your-username` with your
+// GitHub username before launch.
+export const DEVELOPER = {
+    name: "Tehreem Irfan",
+    url: "https://github.com/Tehreemirfan123",
+};
+
 // Delivery fee = baseFee within baseKm, plus perKm for every km beyond.
 // The fee shown on the site is an estimate; it's confirmed on WhatsApp.
 export const DELIVERY = {
