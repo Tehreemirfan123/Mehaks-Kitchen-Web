@@ -1,0 +1,12 @@
+# Opens a pull request each month when a dependency has a security fix or
+# update, so the site doesn't silently fall behind.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /frontend
+    schedule:
+      interval: monthly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
