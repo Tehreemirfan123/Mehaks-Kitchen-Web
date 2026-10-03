@@ -14,8 +14,7 @@ export const BUSINESS = {
     timeZone: "Asia/Karachi",
 };
 
-// Developer credit shown in the footer. Replace `your-username` with your
-// GitHub username before launch.
+// Developer credit shown in the footer.
 export const DEVELOPER = {
     name: "Tehreem Irfan",
     url: "https://github.com/Tehreemirfan123",
