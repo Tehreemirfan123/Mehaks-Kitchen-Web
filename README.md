@@ -97,3 +97,7 @@ directory `frontend`. No environment variables or secrets. It runs on either:
 
 `hosting-headers.test.js` keeps the two header files identical. Share the
 project's production URL, not per-deployment preview URLs.
+
+## Author
+
+Designed and built by **Tehreem Irfan** — [GitHub](https://github.com/Tehreemirfan123)
